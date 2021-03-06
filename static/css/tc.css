@@ -1,0 +1,65 @@
+.guize_html {
+    position: fixed;
+    top: 21.5%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -150px;
+    width: 300px;
+    height: auto;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+}
+.guize_html p {
+	padding:0 10px;
+	text-align:left;
+	text-indent:2em;
+}
+.guize_html_nei {
+	width:300px;
+	min-height:350px;
+	/*overflow-y:auto;*/
+	max-height:500px;
+	height:350px;
+	display:block;
+}
+.btnXZ {
+	display:block;
+	margin:10px auto;
+	width:125px;
+	height:40px;
+	border-radius:30px;
+	background-color:#dc0075;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+}
+
+
+.GB {
+	display:block;
+	margin:10px auto;
+	width:125px;
+	height:40px;
+	border-radius:30px;
+	background-color:#7d7776;
+	color:#fff;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+}
+
+
+.overfloat {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9;
+	display:none;
+	width:100%;
+	height:100%;
+	background-color:rgba(1,1,1,.5);
+}
